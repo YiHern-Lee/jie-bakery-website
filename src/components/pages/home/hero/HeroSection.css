@@ -1,0 +1,28 @@
+.hero-container {
+    background: url('/images/bakery-bg.jpg') center center/cover no-repeat;
+    padding: 4vh 0 8vh;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.hero-container > h2 {
+    text-align: center;
+    color: rgb(25, 25, 25);
+    font-size: calc(10px + 2vw);
+}
+
+.hero-container > h1 {
+    text-align: center;
+    color: rgb(25, 25, 25);
+    font-size: calc(12px + 3vw);
+}
+
+.hero-section-logo {
+    height: 10vw;
+}
+
