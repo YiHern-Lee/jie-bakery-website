@@ -1,0 +1,10 @@
+{
+  "short_name": "Jie Bakery",
+  "name": "Jie Traditional Bread Bakery Official Website",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

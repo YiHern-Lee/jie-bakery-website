@@ -1,0 +1,10 @@
+.timeline {
+    padding-top: 2vh;
+    background-color: rgb(242, 242, 242);
+    padding-bottom: 4vh;
+}
+
+.timeline-title {
+    text-align: center;
+    margin: 2vh 0;
+}
