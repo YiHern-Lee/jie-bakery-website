@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './HomeSection.css'
 import Button from "../../../button/Button";
+import whiteBreadOnBoard from './img/white-bread-on-board.png'
 
 function HomeSection() {
     const redirectToAboutUs = () => {
@@ -32,7 +33,7 @@ function HomeSection() {
                         </div>
                     </div>
                     <div className='home-section-content-img-container'> 
-                        <img src='images/white-bread-on-board.png'/>
+                        <img src={whiteBreadOnBoard}/>
                     </div>
                 </div>
             </div>

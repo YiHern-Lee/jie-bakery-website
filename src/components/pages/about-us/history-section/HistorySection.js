@@ -1,4 +1,5 @@
 import React from "react";
+import backgroundImg from './img/bakery-location-photo.jpg'
 import "./HistorySection.css"
 
 function HistorySection () {
@@ -20,7 +21,7 @@ function HistorySection () {
                         </p>
                     </div>
                     <div className='history-section-content-img-container'>
-                        <img src='images/bakery-location-photo.jpg' />
+                        <img src={backgroundImg} />
                     </div>
                 </div>
             </div>
