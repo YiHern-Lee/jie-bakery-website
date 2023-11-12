@@ -1,5 +1,5 @@
 .hero-container {
-    background: url('/images/bakery-bg.jpg') center center/cover no-repeat;
+    background: url(./img/bakery-bg.jpg) center center/cover no-repeat;
     padding: 4vh 0 8vh;
     width: 100vw;
     height: auto;
