@@ -1,7 +1,7 @@
 {
-  "main.css": "/jie-bakery-website/static/css/main.71df8ebb.chunk.css",
-  "main.js": "/jie-bakery-website/static/js/main.8096854a.chunk.js",
-  "main.js.map": "/jie-bakery-website/static/js/main.8096854a.chunk.js.map",
+  "main.css": "/jie-bakery-website/static/css/main.cd78dae0.chunk.css",
+  "main.js": "/jie-bakery-website/static/js/main.75cdeaa0.chunk.js",
+  "main.js.map": "/jie-bakery-website/static/js/main.75cdeaa0.chunk.js.map",
   "static/js/1.46c3c264.chunk.js": "/jie-bakery-website/static/js/1.46c3c264.chunk.js",
   "static/js/1.46c3c264.chunk.js.map": "/jie-bakery-website/static/js/1.46c3c264.chunk.js.map",
   "static/css/2.99d5b38d.chunk.css": "/jie-bakery-website/static/css/2.99d5b38d.chunk.css",
@@ -12,9 +12,10 @@
   "static/media/bakery-logo.png": "/jie-bakery-website/static/media/bakery-logo.ed81c3ca.png",
   "static/media/white-bread-on-board.png": "/jie-bakery-website/static/media/white-bread-on-board.30ac7720.png",
   "static/media/bakery-location-photo.jpg": "/jie-bakery-website/static/media/bakery-location-photo.1fe3c5cb.jpg",
-  "static/css/main.71df8ebb.chunk.css.map": "/jie-bakery-website/static/css/main.71df8ebb.chunk.css.map",
+  "static/media/HeroSection.css": "/jie-bakery-website/static/media/bakery-bg.3b5955b0.jpg",
+  "static/css/main.cd78dae0.chunk.css.map": "/jie-bakery-website/static/css/main.cd78dae0.chunk.css.map",
   "static/css/2.99d5b38d.chunk.css.map": "/jie-bakery-website/static/css/2.99d5b38d.chunk.css.map",
   "index.html": "/jie-bakery-website/index.html",
-  "precache-manifest.20224c330f9c0d24766d272fc2c3a909.js": "/jie-bakery-website/precache-manifest.20224c330f9c0d24766d272fc2c3a909.js",
+  "precache-manifest.5dd620fd0a5cde1b043de26c301d737b.js": "/jie-bakery-website/precache-manifest.5dd620fd0a5cde1b043de26c301d737b.js",
   "service-worker.js": "/jie-bakery-website/service-worker.js"
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8096854a213c5da346fb",
-    "url": "/jie-bakery-website/static/css/main.71df8ebb.chunk.css"
+    "revision": "75cdeaa0cda4c522eb6e",
+    "url": "/jie-bakery-website/static/css/main.cd78dae0.chunk.css"
   },
   {
-    "revision": "8096854a213c5da346fb",
-    "url": "/jie-bakery-website/static/js/main.8096854a.chunk.js"
+    "revision": "75cdeaa0cda4c522eb6e",
+    "url": "/jie-bakery-website/static/js/main.75cdeaa0.chunk.js"
   },
   {
     "revision": "46c3c26490a9244cbd4e",
@@ -36,7 +36,11 @@ self.__precacheManifest = [
     "url": "/jie-bakery-website/static/media/bakery-location-photo.1fe3c5cb.jpg"
   },
   {
-    "revision": "cb98a552f62fdf93e0f289a85aec2bda",
+    "revision": "3b5955b0f61b1bd268609461041b47ed",
+    "url": "/jie-bakery-website/static/media/bakery-bg.3b5955b0.jpg"
+  },
+  {
+    "revision": "379251ba6f8308b8c82763239f8c2a6b",
     "url": "/jie-bakery-website/index.html"
   }
 ];
