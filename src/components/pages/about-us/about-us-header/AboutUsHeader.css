@@ -12,6 +12,10 @@
     filter: drop-shadow(0 0 3px #3b3b3b);
 }
 
+.about-us-header-img-container > img {
+    max-width: 100vw;
+}
+
 /* 
 .history-cover-img-container > img {
     width: inherit;

@@ -16,7 +16,9 @@ function FounderSection () {
                             <div className="rickshaw-logo-container">
                                 <img src={rickshawIcon} alt="Riskshaw Logo"/>
                             </div>
-                            <p>About Jimmy Mah</p>
+                            <div className="founder-section-about-para">
+                                <p>About Jimmy Mah</p>
+                            </div>
                         </div>
                     </div>
                     <div className="founder-section-img-container">

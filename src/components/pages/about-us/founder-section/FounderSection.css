@@ -9,9 +9,11 @@
 }
 
 .founder-section-header {
+    height: 40vh;
+    max-width: 100vw;
     width: 90%;
     display: grid;
-    grid-template-columns: [col1] 50% [col2] auto;
+    grid-template-columns: [col1] 45% [col2] auto;
     column-gap: 5%;
     flex-direction: row;
     align-items: center;
@@ -33,32 +35,75 @@
 }
 
 .founder-section-about {
+    height: 100%;
     grid-row-start: row2;
     display: grid;
-    grid-template-columns: auto 50%;
+    grid-template-columns: fit-content(40%) fit-content(60%);
+    column-gap: 5%;
     align-items: center;
+    justify-content: end;
 }
 
 .rickshaw-logo-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: end;
+    justify-self: end;
+}
+
+@media screen and (max-width: 800px) {
+    .rickshaw-logo-container {
+        display: none;
+    }
+
+    .rickshaw-logo-container > img {
+        display: none;
+    }
+
+    .founder-section-about-para {
+        width: 100%;
+    }
+
+    .founder-section-about {
+        grid-template-columns: fit-content(100%);
+    }
+
+    .founder-section-header {
+        height: 13vh;
+    }
+}
+
+.rickshaw-logo-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: end;
     justify-self: end;
 }
 
 .rickshaw-logo-container > img {
-    height: 6vh;
+    max-width: 60%;
+    height: auto;
 }
 
 
 .founder-section-name > h1 {
     text-align: right;
-    font-size: calc(14px + 1.5vw);
+    font-size: calc(12px + 2.7vw);
     font-weight: 500;
     color: rgb(90, 0, 0, 100);
     font-family: "Times New Roman", Times, serif;
 }
 
-.founder-section-about > p {
+.founder-section-about-para {
+    width: fit-content;
+    display: flex;
+    justify-content: end;
+    justify-self: end;
+}
+
+.founder-section-about-para > p {
     text-align: right;
-    font-size: calc(12px + 0.8vw);
+    font-size: calc(11px + 1.4vw);
     font-family: "Goudy Bookletter 1911", ui-sans-serif;
 }
 
@@ -69,18 +114,20 @@
 
 .founder-section-paragraph > p {
     text-align: justify;
-    font-size: calc(12px + 0.8vw);
+    font-size: calc(11px + 0.8vw);
     font-family: "Goudy Bookletter 1911", ui-sans-serif;
 }
 
 
 .founder-section-img-container {
-    height: 20vh;
+    max-width: 90%;
     grid-column-start: col2;
     justify-self: start;
 }
 
 .founder-section-img-container > img {
+    max-width: inherit;
+    height: auto;
     height: inherit;
     filter: drop-shadow(0 0 3px #3b3b3b);
 }
