@@ -2,11 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './HomeSection.css'
 import Button from "../../../button/Button";
-import whiteBreadImg from './img/white-bread.png'
-import rainbowBreadImg from './img/rainbow-bread.png'
-import redbeanBunImg from './img/red-bean-bun.png'
-import coconutBunImg from './img/coconut-bun.png'
-
+import plainBreadImg from './img/breads/Plain.png'
+import colouredBreadImg from './img/breads/Coloured.png'
+import bigBunImg from './img/breads/Big_Bun.png'
+import colouredBunImg from './img/breads/Colour_Bun.png'
+import plainSquareImg from './img/breads/Plain.png'
+import rainbowSquareImg from './img/breads/Rainbow_Square.png'
+import pandanBreadImg from './img/breads/Pandan.png'
+import milkBreadImg from './img/breads/Milk.png'
+import brownSugarImg from './img/breads/Brown_Sugar.png'
+import miniBunImg from './img/breads/Mini_Bun.png'
+import sugarRollImg from './img/breads/Sugar_Roll.png'
+import cheeseRollImg from './img/breads/Cheese_Roll.png'
 import breadPlatterImg from './img/bread-platter.png'
 
 function HomeSection() {
@@ -34,7 +41,7 @@ function HomeSection() {
                         </div>
                     </div>
                     <div className='home-section-content-img-container'> 
-                        <img src={breadPlatterImg}/>
+                        <img src={breadPlatterImg} alt="Bread Platter"/>
                     </div>
                 </div>
             </div>
@@ -48,19 +55,12 @@ function HomeSection() {
             <div className='home-section-container'>
                 <div className='home-section-content-container v2'>
                     <div className='home-section-content-img-container'> 
-                        <img src={rainbowBreadImg}/>
+                        <img src={plainBreadImg} alt="Plain Bread"/>
                     </div>
                     <div className='home-section-content v2'>
-                        <h1>Rainbow Bread</h1>
+                        <h1>Plain</h1>
                         <br />
-                        <p>
-                            Breaking bread.
-                            <br /><br />
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                            when an unknown printer took a galley of type and scrambled it to make a type 
-                            specimen book. 
-                        </p>
+                        <h3>Traditional bread, soft and puffy</h3>
                         <br />
                     </div>
                 </div>
@@ -68,29 +68,23 @@ function HomeSection() {
             <div className='home-section-container'>
                 <div className='home-section-content-container v1'>
                     <div className='home-section-content v1'>
-                        <h1>Traditional White Bread</h1>
-                        <br />
-                        <p>
-                            Placeholder text
-                        </p>
-                        <br />
+                        <h1>Colour</h1>
+                        <h3>Coloured traditional bread</h3>
                     </div>
                     <div className='home-section-content-img-container'> 
-                        <img src={whiteBreadImg}/>
+                        <img src={colouredBreadImg} alt="Coloured Bread"/>
                     </div>
                 </div>
             </div>
             <div className='home-section-container'>
                 <div className='home-section-content-container v2'>
                     <div className='home-section-content-img-container'> 
-                        <img src={redbeanBunImg}/>
+                        <img src={bigBunImg} alt="Big Bun"/>
                     </div>
                     <div className='home-section-content v2'>
-                        <h1>Red Bean Bun</h1>
+                        <h1>Big Bun</h1>
                         <br />
-                        <p>
-                            Placeholder text
-                        </p>
+                        <h3>Mildly sweet bun, buttery with aroma of crust</h3>
                         <br />
                     </div>
                 </div>
@@ -98,15 +92,107 @@ function HomeSection() {
             <div className='home-section-container'>
                 <div className='home-section-content-container v1'>
                     <div className='home-section-content v1'>
-                        <h1>Coconut Bun</h1>
-                        <br />
-                        <p>
-                            Placeholder text
-                        </p>
-                        <br />
+                        <h1>Colour Bun</h1>
+                        <h3>Coloured sweet bun</h3>
                     </div>
                     <div className='home-section-content-img-container'> 
-                        <img src={coconutBunImg}/>
+                        <img src={colouredBunImg} alt="Coloured Bun"/>
+                    </div>
+                </div>
+            </div>
+            <div className='home-section-container'>
+                <div className='home-section-content-container v2'>
+                    <div className='home-section-content-img-container'> 
+                        <img src={plainSquareImg} alt="Plain Square"/>
+                    </div>
+                    <div className='home-section-content v2'>
+                        <h1>Plain Square</h1>
+                        <br />
+                        <h3>Sandwich bread</h3>
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div className='home-section-container'>
+                <div className='home-section-content-container v1'>
+                    <div className='home-section-content v1'>
+                        <h1>Rainbow Square</h1>
+                        <h3>Coloured sandwich bread</h3>
+                    </div>
+                    <div className='home-section-content-img-container'> 
+                        <img src={rainbowSquareImg} alt="Rainbow Square"/>
+                    </div>
+                </div>
+            </div>
+            <div className='home-section-container'>
+                <div className='home-section-content-container v2'>
+                    <div className='home-section-content-img-container'> 
+                        <img src={pandanBreadImg} alt="Pandan Bread"/>
+                    </div>
+                    <div className='home-section-content v2'>
+                        <h1>Pandan</h1>
+                        <br />
+                        <h3>Milky pandan flavour, mildly sweet</h3>
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div className='home-section-container'>
+                <div className='home-section-content-container v1'>
+                    <div className='home-section-content v1'>
+                        <h1>Milk</h1>
+                        <h3>Milky flavour, mildly sweet</h3>
+                    </div>
+                    <div className='home-section-content-img-container'> 
+                        <img src={milkBreadImg} alt="Milk Bread"/>
+                    </div>
+                </div>
+            </div>
+            <div className='home-section-container'>
+                <div className='home-section-content-container v2'>
+                    <div className='home-section-content-img-container'> 
+                        <img src={brownSugarImg} alt="Brown Sugar Bread"/>
+                    </div>
+                    <div className='home-section-content v2'>
+                        <h1>Brown Sugar</h1>
+                        <br />
+                        <h3>Traditional brown sugar</h3>
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div className='home-section-container'>
+                <div className='home-section-content-container v1'>
+                    <div className='home-section-content v1'>
+                        <h1>Mini Bun</h1>
+                        <h3>Mildly sweet bun, buttery with aroma of crust</h3>
+                    </div>
+                    <div className='home-section-content-img-container'> 
+                        <img src={miniBunImg} alt="Mini Bun"/>
+                    </div>
+                </div>
+            </div>
+            <div className='home-section-container'>
+                <div className='home-section-content-container v2'>
+                    <div className='home-section-content-img-container'> 
+                        <img src={sugarRollImg} alt="Sugar Roll"/>
+                    </div>
+                    <div className='home-section-content v2'>
+                        <h1>Sugar Roll</h1>
+                        <br />
+                        <h3>Old school sugar roll</h3>
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div className='home-section-container'>
+                <div className='home-section-content-container v1'>
+                    <div className='home-section-content v1'>
+                        <h1>Cheese Roll</h1>
+                        <h3>Old school cheese roll</h3>
+                    </div>
+                    <div className='home-section-content-img-container'> 
+                        <img src={cheeseRollImg} alt="Cheese Roll"/>
                     </div>
                 </div>
             </div>

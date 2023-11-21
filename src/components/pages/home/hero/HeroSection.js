@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../../../App.css'
 import bakeryLogo from '../../../../img/bakery-logo.png'
-import caligraphy from './img/chinese-caligraphy.png'
 import heroImg from './img/Hero-Img.png'
 
 import './HeroSection.css';
@@ -24,8 +23,8 @@ function HeroSection() {
             
         </div> */}
 
-        <img src={heroImg} className='hero-img'/>
-        <img src={bakeryLogo} className='hero-logo' />
+        <img src={heroImg} className='hero-img' alt='Hero Section'/>
+        <img src={bakeryLogo} className='hero-logo' alt='Jie Bakery Logo'/>
         
     </div>
   );

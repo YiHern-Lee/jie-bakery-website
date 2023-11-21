@@ -1,5 +1,6 @@
 import React from "react";
-import HistorySection from "./history-section/HistorySection";
+import AboutUsHeader from "./about-us-header/AboutUsHeader";
+import FounderSection from "./founder-section/FounderSection";
 import Timeline from "./timeline/Timeline";
 import Footer from "../../footer/Footer";
 import './AboutUs.css';
@@ -7,8 +8,9 @@ import './AboutUs.css';
 function AboutUs () {
     return (
         <div className="about-us-page-container">
-            <HistorySection />
-            <Timeline />
+            <AboutUsHeader />
+            <FounderSection />
+            {/* <Timeline /> */}
             <Footer />
         </div>
     )

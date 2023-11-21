@@ -1,3 +1,5 @@
 .about-us-page-container {
+    background: url(./img/about-us-background.jpg);
+    background-size: 100% 100%;
     margin-top: calc(40px + 3vh);
 }

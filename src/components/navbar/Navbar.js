@@ -17,7 +17,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img className='navbar-logo-img' src={bakeryIcon} />
+            <img className='navbar-logo-img' src={bakeryIcon} alt='Jie Bakery Logo'/>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             {

@@ -1,5 +1,6 @@
 .home-section {
     background: url(./img/home-page-bg.jpg);
+    background-size: 100% 100%;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -23,12 +24,12 @@
 
 .home-section-content-container.v1 {
     grid-template-columns: [col1] 60% [col2] auto;
-    column-gap: 3%;
+    column-gap: 1%;
 }
 
 .home-section-content-container.v2 {
     grid-template-columns: [col1] auto [col2] 60%;
-    column-gap: 6%;
+    column-gap: 1%;
 }
 
 .home-section-content {
@@ -58,7 +59,20 @@
     color: rgb(90, 0, 0, 100);
 }
 
-.home-section-content.v1.main > p {
+.home-section-content > p {
+    text-align: left;
+    font-size: calc(15px + 0.8vw);
+    font-family: "Goudy Bookletter 1911", ui-sans-serif;
+}
+
+.home-section-content > h3 {
+    text-align: left;
+    font-size: calc(20px + 1.0vw);
+    font-family: "Goudy Bookletter 1911", ui-sans-serif;
+    font-weight: 500;
+}
+
+.home-section-content.v1.main > h3 {
     text-align: left;
 }
 
@@ -70,21 +84,15 @@
     text-align: right;
 }
 
-.home-section-content.v1 > p {
+.home-section-content.v1 > h3 {
     text-align: right;
 }
 
-.home-section-content > p {
-    text-align: left;
-    font-size: calc(15px + 0.8vw);
-    font-family: "Goudy Bookletter 1911", ui-sans-serif;
-}
 
 .home-section-content-img-container {
     display: flex;
     justify-content: center;
     object-fit: contain;
-    margin: 10%;
 }
 
 .home-section-content-img-container.v1 {
