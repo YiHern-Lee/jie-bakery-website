@@ -1,8 +1,15 @@
 .hero-container {
-    background: url(./img/bakery-bg.jpg) center center/cover no-repeat;
-    padding: 4vh 0 8vh;
+    /* background: url(./img/Hero-Img.png); */
+    /* padding: 4vh 0 8vh; */
+    padding: 0;
     width: 100vw;
     height: auto;
+    position: relative;
+    /* display: grid;
+    grid-template-columns: 20% 60% 20%;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,19 +17,42 @@
     object-fit: contain;
 }
 
+/* .hero-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.hero-caligraphy {
+    width: 60%;
+}
+
 .hero-container > h2 {
     text-align: center;
     color: rgb(25, 25, 25);
     font-size: calc(10px + 2vw);
+    font: optional;
 }
 
 .hero-container > h1 {
     text-align: center;
     color: rgb(25, 25, 25);
     font-size: calc(12px + 3vw);
+    font-family: ChineseBrush;
 }
 
 .hero-section-logo {
     height: 10vw;
+} */
+
+.hero-img {
+    width: 100%;
 }
 
+.hero-logo {
+    position: absolute;
+    top: 28.5%;
+    width: 17%;
+}

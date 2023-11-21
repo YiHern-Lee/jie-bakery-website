@@ -2,24 +2,25 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './HomeSection.css'
 import Button from "../../../button/Button";
-import whiteBreadOnBoard from './img/white-bread-on-board.png'
+import whiteBreadImg from './img/white-bread.png'
+import rainbowBreadImg from './img/rainbow-bread.png'
+import redbeanBunImg from './img/red-bean-bun.png'
+import coconutBunImg from './img/coconut-bun.png'
+
+import breadPlatterImg from './img/bread-platter.png'
 
 function HomeSection() {
-    const redirectToAboutUs = () => {
-
-    }
-
     return (
         <div className='home-section'>
             <div className='home-section-container'>
-                <div className='home-section-content-container v1'>
-                    <div className='home-section-content v1'>
-                        <h1>Baking Bread Since 1980s</h1>
+                <div className='home-section-content-container v1 main'>
+                    <div className='home-section-content v1 main'>
+                        <h1>Introducing Jie Bakery</h1>
                         <br />
                         <p>
-                            Opened for more than 30 years, our bread is baked using traditional methods.
+                            Founded by Jimmy Mah, our bakery is committed to providing the highest quality artisanal bread with no preservatives.
                             <br /><br />
-                            Our traditional bread are freshly baked every day and contains no preservatives.
+                            Our mission is to create delicious, healthy, and sustainable bread that nourishes both the body and soul. 
                         </p>
                         <br />
                         <div className='home-section-btn'>
@@ -33,7 +34,7 @@ function HomeSection() {
                         </div>
                     </div>
                     <div className='home-section-content-img-container'> 
-                        <img src={whiteBreadOnBoard}/>
+                        <img src={breadPlatterImg}/>
                     </div>
                 </div>
             </div>
@@ -47,10 +48,10 @@ function HomeSection() {
             <div className='home-section-container'>
                 <div className='home-section-content-container v2'>
                     <div className='home-section-content-img-container'> 
-                        <img src='images/white-bread.png'/>
+                        <img src={rainbowBreadImg}/>
                     </div>
                     <div className='home-section-content v2'>
-                        <h1>White Bread</h1>
+                        <h1>Rainbow Bread</h1>
                         <br />
                         <p>
                             Breaking bread.
@@ -61,6 +62,51 @@ function HomeSection() {
                             specimen book. 
                         </p>
                         <br />
+                    </div>
+                </div>
+            </div>
+            <div className='home-section-container'>
+                <div className='home-section-content-container v1'>
+                    <div className='home-section-content v1'>
+                        <h1>Traditional White Bread</h1>
+                        <br />
+                        <p>
+                            Placeholder text
+                        </p>
+                        <br />
+                    </div>
+                    <div className='home-section-content-img-container'> 
+                        <img src={whiteBreadImg}/>
+                    </div>
+                </div>
+            </div>
+            <div className='home-section-container'>
+                <div className='home-section-content-container v2'>
+                    <div className='home-section-content-img-container'> 
+                        <img src={redbeanBunImg}/>
+                    </div>
+                    <div className='home-section-content v2'>
+                        <h1>Red Bean Bun</h1>
+                        <br />
+                        <p>
+                            Placeholder text
+                        </p>
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div className='home-section-container'>
+                <div className='home-section-content-container v1'>
+                    <div className='home-section-content v1'>
+                        <h1>Coconut Bun</h1>
+                        <br />
+                        <p>
+                            Placeholder text
+                        </p>
+                        <br />
+                    </div>
+                    <div className='home-section-content-img-container'> 
+                        <img src={coconutBunImg}/>
                     </div>
                 </div>
             </div>

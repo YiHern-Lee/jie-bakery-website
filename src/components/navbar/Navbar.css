@@ -1,5 +1,6 @@
 .navbar {
-    background: #ffffff;
+    background: url(../pages/home/home-section/img/home-page-bg.jpg);
+    filter: drop-shadow(0 0 3px #3b3b3b);
     height: calc(40px + 3vh);
     display: flex;
     justify-content: space-between;
@@ -55,7 +56,7 @@
 }
 
 .nav-links {
-    color: #000;
+    color: rgb(90, 0, 0, 100);
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -64,12 +65,12 @@
 }
 
 .nav-links:hover {
-    border-bottom: 4px solid #000;
+    border-bottom: 4px solid rgb(90, 0, 0, 100);
     transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-    color: #000;
+    color: rgb(90, 0, 0, 100);;
 }
 
 .nav-links-mobile {
@@ -104,7 +105,7 @@
     }
 
     .nav-menu.active {
-        background: #e4e4e4;
+        background: url(../pages/home/home-section/img/home-page-bg.jpg);
         right: 0;
         width: 100%;
         opacity: 1;
@@ -120,8 +121,7 @@
     }
 
     .nav-links:hover {
-        background-color: #cfcfcf;
-        color: #242424;
+        color: rgb(90, 0, 0, 100);
         border-radius: 0;
     }
 
@@ -137,6 +137,6 @@
         align-self: center;
         cursor: pointer;
         margin-right: 2rem;
-        color: black;
+        color: rgb(90, 0, 0, 100);
     }
 }

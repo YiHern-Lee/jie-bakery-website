@@ -7,6 +7,7 @@ import Location from './components/pages/location/Location';
 import AboutUs from './components/pages/about-us/AboutUs';
 
 function App() {
+
   return (
     <div className="App">
         <Router>
