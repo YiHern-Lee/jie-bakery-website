@@ -45,7 +45,7 @@
 }
 
 .btn--medium {
-    font-size: min(max(8px, 2vw), 18px);
+    font-size: calc(8px + 0.8vw);
 }
 
 .btn--large {

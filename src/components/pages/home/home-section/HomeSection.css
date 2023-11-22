@@ -54,7 +54,7 @@
 .home-section-content > h1 {
     text-align: left;
     font-size: calc(12px + 3.2vw);
-    font-family: "Goudy Bookletter 1911", ui-sans-serif;
+    font-family: "Goudy Bookletter 1911", Times, ui-sans-serif;
     font-weight: 500;
     color: rgb(90, 0, 0, 100);
 }
@@ -62,17 +62,17 @@
 .home-section-content > p {
     text-align: left;
     font-size: calc(11px + 1.1vw);
-    font-family: "Goudy Bookletter 1911", ui-sans-serif;
+    font-family: "Goudy Bookletter 1911", Times, ui-sans-serif;
 }
 
 .home-section-content > h3 {
     text-align: left;
     font-size: calc(12px + 1.4vw);
-    font-family: "Goudy Bookletter 1911", ui-sans-serif;
+    font-family: "Goudy Bookletter 1911", Times, ui-sans-serif;
     font-weight: 500;
 }
 
-.home-section-content.v1.main > h3 {
+.home-section-content.v1.main > p {
     text-align: left;
 }
 

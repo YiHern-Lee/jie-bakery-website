@@ -1,4 +1,5 @@
 .about-us-header {
+    background: url(./img/about-us-cover.png);
     background-size: 100% 100%;
     width: 100vw;
     display: flex;
@@ -6,10 +7,11 @@
 }
 
 .about-us-header-img-container {
+    backdrop-filter: blur(10px);
     display: flex;
     justify-content: center;
     height: auto;
-    filter: drop-shadow(0 0 3px #3b3b3b);
+    /* filter: drop-shadow(0 0 3px #3b3b3b); */
 }
 
 .about-us-header-img-container > img {

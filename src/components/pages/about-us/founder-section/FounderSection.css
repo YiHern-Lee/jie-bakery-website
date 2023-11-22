@@ -22,7 +22,7 @@
 .founder-section-title {
     grid-column-start: col1;
     align-items: center;
-    justify-self: end;
+    justify-self: flex-end;
     height: 100%;
     display: grid;
     grid-template-rows: [row1] 60% [row2] auto;
@@ -41,14 +41,14 @@
     grid-template-columns: fit-content(40%) fit-content(60%);
     column-gap: 5%;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .rickshaw-logo-container {
     max-width: 100%;
     display: flex;
-    justify-content: end;
-    justify-self: end;
+    justify-content: flex-end;
+    justify-self: flex-end;
 }
 
 @media screen and (max-width: 800px) {
@@ -76,8 +76,8 @@
 .rickshaw-logo-container {
     max-width: 100%;
     display: flex;
-    justify-content: end;
-    justify-self: end;
+    justify-content: flex-end;
+    justify-self: flex-end;
 }
 
 .rickshaw-logo-container > img {
@@ -97,8 +97,8 @@
 .founder-section-about-para {
     width: fit-content;
     display: flex;
-    justify-content: end;
-    justify-self: end;
+    justify-content: flex-end;
+    justify-self: flex-end;
 }
 
 .founder-section-about-para > p {
@@ -114,7 +114,7 @@
 
 .founder-section-paragraph > p {
     text-align: justify;
-    font-size: calc(11px + 0.8vw);
+    font-size: calc(11px + 1.2vw);
     font-family: "Goudy Bookletter 1911", ui-sans-serif;
 }
 

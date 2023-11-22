@@ -14,7 +14,7 @@ function Footer() {
             <div className='footer-link-items'>
                 <h2>PAGES</h2>
                 <Link to='/'>Home</Link>
-                <Link to='/'>About Us</Link>
+                <Link to='/about-us'>About Us</Link>
                 <Link to='/location'>Our Location</Link>
             </div>
             <div class='footer-link-items'>
@@ -25,7 +25,7 @@ function Footer() {
             <div class='footer-link-items'>
                 <h2>OUR SOCIALS</h2>
                 <div className='footer-social-icons'>
-                    <Link onClick={() => redirectToSocials('https://www.facebook.com/JieTraditionalBreadBakery/')}><FacebookIcon /></Link>
+                    <Link onClick={() => redirectToSocials('https://www.facebook.com/TheBreadShopSG/')}><FacebookIcon /></Link>
                     <Link onClick={() => redirectToSocials('https://www.instagram.com/thebreadshopsg/')}><InstagramIcon /></Link>
                 </div>
           </div>

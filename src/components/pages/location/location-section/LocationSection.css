@@ -1,17 +1,5 @@
 .location-section {
     width: 100vw;
-    display: flex;
-    flex-direction: column;
-}
-
-.location-cover-img-container {
-    width: 100vw;
-    height: auto;
-}
-
-.location-cover-img-container > img {
-    width: inherit;
-    height: inherit;
 }
 
 .location-section-container {
@@ -19,6 +7,7 @@
     max-height: inherit;
     width: 90vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -28,22 +17,43 @@
     display: grid;
     grid-template-columns: [col1] 40% [col2] auto;
     column-gap: 3%;
-    max-height: 50vh;
     max-width: inherit;
+    margin: 3vh 0;
+}
+
+.location-section-left {
+    display: flex;
+    flex-direction: column;
+    max-width: inherit;
+    grid-column-start: col1;
+}
+
+.location-title {
+    margin-bottom: 2.5vh;
+}
+
+.location-title > h1 {
+    text-align: center;
+    font-size: calc(10px + 2.5vw);
+    font-weight: 500;
+    color: rgb(90, 0, 0, 100);
+    font-family: "Times New Roman", Times, serif;
+}
+
+.location-title.sm {
+    display: none;
 }
 
 .location-section-content-img-container {
     display: flex;
     justify-content: center;
-    object-fit: contain;
-    grid-column-start: col1;
-    max-height: inherit;
+    max-width: 100%;
 }
 
 .location-section-content-img-container > img {
-    max-width: 100%;
+    max-height: 40vh;
+    max-width: 30vw;
     height: auto;
-    object-fit: contain;
 }
 
 .location-section-content {
@@ -55,20 +65,55 @@
 
 .location-section-content > h1 {
     text-align: left;
-    font-size: calc(11px + 1.5vw);
-}
-
-.location-section-content > h3 {
-    text-align: left;
-    font-size: calc(10px + 1vw);
-    font-weight: normal;
+    font-size: calc(11px + 2.7vw);
+    font-weight: 500;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .location-section-content > p {
     text-align: left;
-    font-size: calc(8px + 0.8vw);
+    font-size: calc(12px + 1.2vw);
+    font-family: "Goudy Bookletter 1911", Times, ui-sans-serif;
+}
+
+.location-section-content > p > b {
+    text-align: left;
+    font-size: calc(12px + 1.2vw);
+    font-family: "Goudy Bookletter 1911", Times, ui-sans-serif;
 }
 
 .location-section-btn {
     max-width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+    .location-section-content-container {
+        grid-template-columns: [col1] 40% [col2] auto;
+        column-gap: 8%;
+    }
+    .location-section-content-img-container > img {
+        max-height: 30vh;
+        max-width: 30vw;
+        height: auto;
+    }
+
+    .location-title.lg {
+        display: none;
+    }
+
+    .location-title.sm {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1vh;
+    }
+
+    .location-section-btn {
+        align-self: flex-end;
+    }
+
+    .location-section-content-img-container > img {
+        max-height: 40vh;
+        max-width: 40vw;
+        height: auto;
+    }
 }
