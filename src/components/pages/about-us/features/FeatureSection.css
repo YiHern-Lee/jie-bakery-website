@@ -21,11 +21,30 @@
     column-gap: 3%;
 }
 
+.feature-section-grid.header-3 {
+    margin: 5vh 1vw 3vh 1vw;
+    grid-template-columns: auto auto;
+    column-gap: 3%;
+}
+
 .feature-section-grid-element {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+
+.feature-section-grid-element.end {
+    width: 50%;
+}
+
+.feature-section-grid-element.end.a {
+    align-items: center;
+    justify-self: flex-start;
+}
+.feature-section-grid-element.end.b {
+    align-items: center;
+    justify-self: flex-end;
 }
 
 .feature-section-grid-element.mid {

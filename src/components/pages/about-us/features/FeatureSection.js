@@ -22,6 +22,9 @@ import tvb4 from './img/tvb4.png';
 import tvb5 from './img/tvb5.png';
 import tvb6 from './img/tvb6.png';
 
+import oldCoffee from "./img/old-coffee-img.png";
+import oldMachine from "./img/old-machine.png";
+
 function FeatureSection() {
     return (
         <div className="feature-section">
@@ -95,6 +98,14 @@ function FeatureSection() {
                     <div className="feature-section-grid-element">
                         <img src={tvb6} alt="TVB Scene 6" />
                     </div>
+                </div>
+            </div>
+            <div className="feature-section-grid header-3">
+                <div className="feature-section-grid-element end a">
+                    <img src={ oldCoffee } alt="Old Coffee" />
+                </div>
+                <div className="feature-section-grid-element end b">
+                    <img src={ oldMachine } alt="Old Machine" />
                 </div>
             </div>
         </div>
