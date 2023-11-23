@@ -2,6 +2,7 @@ import React from 'react';
 import '../../../../App.css'
 import bakeryLogo from '../../../../img/bakery-logo.png'
 import heroImg from './img/Hero-Img.png'
+import homePageHeader from './img/jie-bakery-website-header.png'
 
 import './HeroSection.css';
 
@@ -23,7 +24,7 @@ function HeroSection() {
             
         </div> */}
 
-        <img src={heroImg} className='hero-img' alt='Hero Section'/>
+        <img src={homePageHeader} className='hero-img' alt='Hero Section'/>
         <img src={bakeryLogo} className='hero-logo' alt='Jie Bakery Logo'/>
         
     </div>
