@@ -1,7 +1,7 @@
 .home-section {
     background: url(./img/home-page-bg.jpg);
     background-size: 100% 100%;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding-top: 4vh;
@@ -24,12 +24,12 @@
 
 .home-section-content-container.v1 {
     grid-template-columns: [col1] 60% [col2] auto;
-    column-gap: 1%;
+    column-gap: 3%;
 }
 
 .home-section-content-container.v2 {
     grid-template-columns: [col1] auto [col2] 60%;
-    column-gap: 1%;
+    column-gap: 3%;
 }
 
 .home-section-content {

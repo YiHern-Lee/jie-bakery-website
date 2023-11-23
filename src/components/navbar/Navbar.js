@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, ScrollRestoration } from 'react-router-dom';
 import { Menu as MenuIcon, Close as CloseIcon } from '@mui/icons-material';
 import bakeryIcon from '../../img/bakery-logo.png'
 import './Navbar.css';
@@ -16,9 +16,9 @@ function Navbar() {
   return (
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img className='navbar-logo-img' src={bakeryIcon} alt='Jie Bakery Logo'/>
-          </Link>
+            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                <img className='navbar-logo-img' src={bakeryIcon} alt='Jie Bakery Logo'/>
+            </Link>
           <div className='menu-icon' onClick={handleClick}>
             {
                 open ? 

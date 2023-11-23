@@ -2,7 +2,9 @@ import React from 'react';
 import './LocationSection.css';
 import Button from '../../../button/Button';
 import jieBakeryExterior from './img/jie-bakery-exterior.jpg';
-import breadShopExterior from './img/bread-shop-exterior.png'
+import breadShopExterior from './img/bread-shop-exterior.png';
+import breadShopMap from './img/bread-shop-map.png';
+import jieBakeryMap from './img/jie-bakery-map.png'
 
 function LocationSection() {
     const redirectToGMaps = (url) => {
@@ -33,13 +35,22 @@ function LocationSection() {
                         <div className='location-section-btn'>
                             <Button 
                                 buttonStyle='btn--orange' 
-                                onClick={ () => redirectToGMaps('https://maps.app.goo.gl/avZzrU9hpAyMdAqj7' ) }
+                                onClick={ () => redirectToGMaps('https://maps.app.goo.gl/GafUiSPbwXUpXyBu7' ) }
                             >
                                 Getting There
                             </Button>
                         </div>
+                        <div className='location-section-map-container lg'>
+                            <div className='location-section-map-img-container lg'>
+                                <img src={jieBakeryMap} alt='Jie Bakery Map'/>
+                            </div>
                     </div>
-                    
+                    </div>
+                    <div className='location-section-map-container sm'>
+                        <div className='location-section-map-img-container sm'>
+                            <img src={jieBakeryMap} alt='Jie Bakery Map'/>
+                        </div>
+                    </div>
                 </div>
                 <div className='location-section-content-container'>
                     <div className='location-section-left'>
@@ -68,8 +79,17 @@ function LocationSection() {
                                 Getting There
                             </Button>
                         </div>
+                        <div className='location-section-map-container lg'>
+                        <div className='location-section-map-img-container lg'>
+                            <img src={breadShopMap} alt='Jie Bakery Map'/>
+                        </div>
                     </div>
-                    
+                    </div>
+                    <div className='location-section-map-container sm'>
+                        <div className='location-section-map-img-container sm'>
+                            <img src={breadShopMap} alt='Jie Bakery Map'/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
