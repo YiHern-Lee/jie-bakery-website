@@ -6,7 +6,7 @@ function AboutUsHeader () {
     return (
         <div className="location-header">
             <div className='location-header-img-container'>
-                <img src={ locationHeader } alt="Owner image" />
+                <img src={ locationHeader } alt="Bakery Interior" />
             </div>
         </div>
     )

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, ScrollRestoration } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Menu as MenuIcon, Close as CloseIcon } from '@mui/icons-material';
 import bakeryIcon from '../../img/bakery-logo.png'
 import './Navbar.css';

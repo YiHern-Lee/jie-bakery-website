@@ -87,8 +87,12 @@
 }
 
 @media screen and (max-width: 800px) {
+    .feature-section-grid {
+        margin: 5vh 12vw 10vh 12vw;
+    }
+
     .feature-section-grid.sm {
-        margin: 5vh 12vw 18vh 12vw;
+        margin: 5vh 12vw 8vh 12vw;
         display: grid;
         grid-template-columns: auto auto;
         column-gap: 1%;
