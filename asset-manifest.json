@@ -1,7 +1,7 @@
 {
-  "main.css": "/jie-bakery-website/static/css/main.0ace2797.chunk.css",
-  "main.js": "/jie-bakery-website/static/js/main.0d03f5e3.chunk.js",
-  "main.js.map": "/jie-bakery-website/static/js/main.0d03f5e3.chunk.js.map",
+  "main.css": "/jie-bakery-website/static/css/main.12033fe3.chunk.css",
+  "main.js": "/jie-bakery-website/static/js/main.b34d5210.chunk.js",
+  "main.js.map": "/jie-bakery-website/static/js/main.b34d5210.chunk.js.map",
   "static/js/1.096cc614.chunk.js": "/jie-bakery-website/static/js/1.096cc614.chunk.js",
   "static/js/1.096cc614.chunk.js.map": "/jie-bakery-website/static/js/1.096cc614.chunk.js.map",
   "static/css/2.71fefca9.chunk.css": "/jie-bakery-website/static/css/2.71fefca9.chunk.css",
@@ -56,9 +56,9 @@
   "static/media/Location.css": "/jie-bakery-website/static/media/location-background.318bb126.jpg",
   "static/media/ContactUsSection.css": "/jie-bakery-website/static/media/chinatown-backdrop.a0cffcfb.png",
   "static/media/AboutUs.css": "/jie-bakery-website/static/media/about-us-background.318bb126.jpg",
+  "static/css/main.12033fe3.chunk.css.map": "/jie-bakery-website/static/css/main.12033fe3.chunk.css.map",
   "static/css/2.71fefca9.chunk.css.map": "/jie-bakery-website/static/css/2.71fefca9.chunk.css.map",
-  "static/css/main.0ace2797.chunk.css.map": "/jie-bakery-website/static/css/main.0ace2797.chunk.css.map",
   "index.html": "/jie-bakery-website/index.html",
-  "precache-manifest.f0e4b6cab5a0556fa7a50575259837ff.js": "/jie-bakery-website/precache-manifest.f0e4b6cab5a0556fa7a50575259837ff.js",
+  "precache-manifest.77a442bacc192b184f52728ad968a6ee.js": "/jie-bakery-website/precache-manifest.77a442bacc192b184f52728ad968a6ee.js",
   "service-worker.js": "/jie-bakery-website/service-worker.js"
 }
