@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jie-bakery-website/precache-manifest.0c188f003e59629d85ca2fe8e7578efb.js"
+  "/jie-bakery-website/precache-manifest.9ebd813e90ed400dfd5be2fef3f0ab5b.js"
 );
 
 workbox.clientsClaim();
