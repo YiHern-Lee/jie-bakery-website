@@ -1,0 +1,15 @@
+.home-bottom {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.home-bottom > img {
+    margin: 0;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}

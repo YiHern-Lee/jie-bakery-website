@@ -1,4 +1,6 @@
 .home-page-container {
+    background: url(./img/home-page-bg.jpg);
+    background-size: 100% 100%;
     margin-top: calc(40px + 3vh);
     width: 100vw;
 }

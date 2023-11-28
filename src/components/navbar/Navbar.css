@@ -1,5 +1,5 @@
 .navbar {
-    background: url(../pages/home/home-section/img/home-page-bg.jpg);
+    background: url(../pages/home/img/home-page-bg.jpg);
     filter: drop-shadow(0 0 3px #3b3b3b);
     height: calc(40px + 3vh);
     display: flex;
@@ -105,7 +105,7 @@
     }
 
     .nav-menu.active {
-        background: url(../pages/home/home-section/img/home-page-bg.jpg);
+        background: url(../pages/home/img/home-page-bg.jpg);
         right: 0;
         width: 100%;
         opacity: 1;
