@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "bd55045d8dfb03fed4f3",
-    "url": "/jie-bakery-website/static/css/main.5db11814.chunk.css"
+    "revision": "7872de7828fd0eb58273",
+    "url": "/jie-bakery-website/static/css/main.bbc3279c.chunk.css"
   },
   {
-    "revision": "bd55045d8dfb03fed4f3",
-    "url": "/jie-bakery-website/static/js/main.bd55045d.chunk.js"
+    "revision": "7872de7828fd0eb58273",
+    "url": "/jie-bakery-website/static/js/main.7872de78.chunk.js"
   },
   {
-    "revision": "7a0a2e04842ecbdc8f14",
-    "url": "/jie-bakery-website/static/js/1.7a0a2e04.chunk.js"
+    "revision": "f7afa9f5281624826d3e",
+    "url": "/jie-bakery-website/static/js/1.f7afa9f5.chunk.js"
   },
   {
-    "revision": "6ad25ce31c0faf73f893",
-    "url": "/jie-bakery-website/static/js/2.6ad25ce3.chunk.js"
+    "revision": "97f8f9c86ae4eb82e2d0",
+    "url": "/jie-bakery-website/static/js/2.97f8f9c8.chunk.js"
   },
   {
-    "revision": "5f2402a7ed54483d14bc",
-    "url": "/jie-bakery-website/static/js/runtime~main.5f2402a7.js"
+    "revision": "4421c0e4634b40730887",
+    "url": "/jie-bakery-website/static/js/runtime~main.4421c0e4.js"
   },
   {
     "revision": "ed81c3cafdc4e813f9be12a93a658ecc",
@@ -86,6 +86,18 @@ self.__precacheManifest = [
   {
     "revision": "6f4a7436ef7a5b41538e40870e421127",
     "url": "/jie-bakery-website/static/media/bread-platter.6f4a7436.png"
+  },
+  {
+    "revision": "a4bd4f05bd04983c7a4fb775588c000d",
+    "url": "/jie-bakery-website/static/media/kopi-picture.a4bd4f05.png"
+  },
+  {
+    "revision": "da87c0688d905725edd0608934f93b4a",
+    "url": "/jie-bakery-website/static/media/nanyang-coffee-pic.da87c068.png"
+  },
+  {
+    "revision": "d6ccfe5982f5ba188f2dd826609f72dd",
+    "url": "/jie-bakery-website/static/media/shophouse-img.d6ccfe59.png"
   },
   {
     "revision": "084ceb0419b2e4b1900503208bd6e734",
@@ -208,7 +220,7 @@ self.__precacheManifest = [
     "url": "/jie-bakery-website/static/media/about-us-background.318bb126.jpg"
   },
   {
-    "revision": "d9185f6646b2ca58bc480ef91472c869",
+    "revision": "59dfdd72fc2ad7c1151610fd72c8689a",
     "url": "/jie-bakery-website/index.html"
   }
 ];
